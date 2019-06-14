@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   for value in array do
     i+=1
     if value = value_to_find
-      return i-1
+      puts i-1
     end
   end
 end
