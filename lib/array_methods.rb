@@ -3,15 +3,16 @@ def find_element_index(array, value_to_find)
   i = 0
   found = false
   while i < array.length do
-    i+=1
-    if array[i] == value_to_find
-      found = true
+    if array[i] != value_to_find
+      i+=1
       puts i
+    else
+      puts i
+      found = true
       return i
     end
     
 
-    
     if found == false
       return nil
     end
