@@ -1,19 +1,14 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   i = 0
-  found = false
-  for value in array do
-    if value != value_to_find
-      i+=1
+  while i < array.length do
+    if array[i] == value_to_find
+      return i
     else
-      found = true
+      i+=1
     end
-  end
-  
-  if found = false
+    
     return nil
-  else
-    return i
   end
 end
 
