@@ -4,13 +4,11 @@ def find_element_index(array, value_to_find)
   found = false
   while i < array.length do
     if array[i] == value_to_find
-      puts i
-            puts i
       found = true
+      puts i
       return i
-      i+=1
     else 
-
+      i+=1
     end
     
 
