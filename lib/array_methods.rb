@@ -8,16 +8,16 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  i, max = 0
+  max = 0
   
   for value in array do
-    
+    if value >= max
+      
   end
 end
 
 def find_min_value(array)
   # Add your solution here
-  i = log
   min = find_max_value(array)
   
   for value in array do
