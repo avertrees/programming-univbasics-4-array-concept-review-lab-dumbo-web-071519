@@ -4,8 +4,8 @@ def find_element_index(array, value_to_find)
   found = false
   while i < array.length do
     if array[i] != value_to_find
-      i+=1
       puts i
+      i+=1
     else
       puts i
       found = true
