@@ -11,9 +11,9 @@ def find_element_index(array, value_to_find)
     end
   end  
 
-    if found == false
-      return nil
-    end
+  if found == false
+    return nil
+  end
     
 end
 
