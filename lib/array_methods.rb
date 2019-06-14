@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
     if array[i] != value_to_find
       puts i
       i+=1
-    else
+    else if array[i] == value_to_find
       puts i
       found = true
       return i
