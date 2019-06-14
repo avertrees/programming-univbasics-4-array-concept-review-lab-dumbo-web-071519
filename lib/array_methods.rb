@@ -1,13 +1,13 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   i = 0
-  puts i
   found = false
   while i < array.length do
     if array[i] == value_to_find
       puts array[i]
       puts value_to_find
       found = true
+      puts i
       return i
     end
     
