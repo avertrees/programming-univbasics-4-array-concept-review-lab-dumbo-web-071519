@@ -5,7 +5,7 @@ def find_element_index(array, value_to_find)
     i+=1
     if value = value_to_find
       return i-1
-    
+    end
   end
 end
 
@@ -16,6 +16,7 @@ def find_max_value(array)
   for value in array do
     if value > max
       max = value
+    end
   end
 end
 
@@ -26,5 +27,6 @@ def find_min_value(array)
   for value in array do
     if value < min
       min = value
+    end
   end
 end
